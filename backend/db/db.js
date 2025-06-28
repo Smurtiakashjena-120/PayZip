@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 const mailSender = require("../utils/mailSender");
 
 const dbURI =
-  "mongodb+srv://smurtiakashjena:5zHLdK0j4KzYL5sh@cluster0.0ou2yfw.mongodb.net/streamify_db?retryWrites=true&w=majority&appName=Cluster0";
+  "";
 
 mongoose
   .connect(dbURI, {})
