@@ -5,13 +5,12 @@ const mailSender = async (email, title, body) => {
     // Create a Transporter to send emails
 
     var smtpConfig = {
-      // host:'smtp.gmail.com',
       service:"gmail",
       port:465,// 465,
       secure:true, // use SSL for port 465
       auth: {
-        user:'bikyjnvk@gmail.com',
-        pass:'cjur xkfg zhpw cfwq',
+        user:'',
+        pass:'',
       },
       tls: {
         rejectUnauthorized: false,
