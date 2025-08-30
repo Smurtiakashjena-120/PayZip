@@ -26,7 +26,7 @@ const LandingPageTopNav = ({ btnText }) => {
       if (window.matchMedia("(min-width: 1024px)").matches) {
         setIsVisible(true); // Automatically show nav links on large screens
       } else {
-        setIsVisible(false); // Hide nav links on small screens
+        setIsVisible(false); // Hide nav links on small   
       }
     };
 

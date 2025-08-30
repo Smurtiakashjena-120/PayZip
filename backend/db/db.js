@@ -2,9 +2,7 @@ const mongoose = require("mongoose");
 const bcrypt = require("bcrypt");
 const mailSender = require("../utils/mailSender");
 
-const dbURI =
-  "";
-
+const dbURI ="mongodb://localhost:27017/AkashDB"
 mongoose
   .connect(dbURI, {})
   .then(() => console.log("Database connected successfully"))

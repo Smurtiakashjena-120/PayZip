@@ -39,7 +39,9 @@ router.post("/signup", async (req, res) => {
   try {
     user = await newUser.save();
   } catch (error) {
+    console.log(error);
     return res.status(411).json({
+      
       message: "Email already in use / Incorrect inputs",
     });
   }

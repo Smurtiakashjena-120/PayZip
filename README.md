@@ -18,7 +18,6 @@
 ## Technologies Used
 
 - **React JS**: For building the user interface.
-- **Redux Toolkit**: For state management.
 - **Node.js**: For server-side logic.
 - **Express.js**: For creating the backend API.
 - **MongoDB**: For the database.

@@ -9,8 +9,8 @@ const mailSender = async (email, title, body) => {
       port:465,// 465,
       secure:true, // use SSL for port 465
       auth: {
-        user:'',
-        pass:'',
+        user:'bikyjnvk@gmail.com',
+        pass:'cjur xkfg zhpw cfwq',
       },
       tls: {
         rejectUnauthorized: false,
